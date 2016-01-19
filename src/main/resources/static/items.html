@@ -1,0 +1,16 @@
+<h1>Items</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in items">
+            <td><a href="#/item/{{item.id}}">{{item.id}}</a></td>
+            <td>{{item.name}}</td>
+        </tr>
+    </tbody>
+</table>
